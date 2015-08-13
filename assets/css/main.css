@@ -1,0 +1,226 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Hind:400,300,700);
+
+body {
+  	background-color: #ffffff;
+	font-family: 'Hind', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #f05a5b;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+	color: #3e4e65;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	font-family: 'Hind', sans-serif;
+    font-weight: 700;
+}
+
+.navbar-inverse {
+	padding: 5px
+}
+
+.navbar-inverse {
+	background-color: #3d424f;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #ccc;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+.my-pic {
+	width: 150px;
+	border-radius: 50%;
+}
+
+li.tarikh {
+	padding-right: 30px;
+}
+
+span.red {
+	color : #f05a5b;
+	font-weight: bold;
+}
+
+h3.page-title {
+	margin-bottom: 50px;
+}
+
+h5.work-ind {
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+img.thumbnail {
+	margin-bottom: 50px;
+}
+
+.postss img {
+	border: 1px solid #eee;
+	border-radius: 5px;
+	max-width:100% !important;
+	height:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#sec-header {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background-color: #3d424f;
+}
+
+#sec-header h1, #sec-header h4 {
+	color: white;
+}
+
+
+
+#sec-header p {
+	color: white;
+}
+
+#footer {
+	background-color: #3d424f;
+	padding-top: 50px;
+	padding-bottom: 50px; 
+}
+
+#footer p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+bt {
+	font-size: 12px;
+}
