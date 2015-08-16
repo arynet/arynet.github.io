@@ -6,7 +6,7 @@ permalink: /contact/
 
 <form class="form-horizontal" role="form" method="post" action="https://getsimpleform.com/messages?form_api_token=66fbee9ab3ce6ef1d615305d340a34b2">
 
-	<input type='hidden' name='redirect_to' value='{{ site.baseurl }}/thank-you.html' />
+	<input type='hidden' name='redirect_to' value='http://www.ahmadrushdi.com/thank-you.html' />
 
     <div class="form-group">
         <label for="name" class="col-sm-2 control-label">Name</label>
