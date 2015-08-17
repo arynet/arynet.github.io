@@ -10,3 +10,5 @@ url: "http://arynet.github.io/" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title
 highlighter: rouge
 markdown: kramdown
+paginate_path: "/blog/page/:num/"
+paginate: 10
