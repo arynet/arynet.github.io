@@ -11,14 +11,11 @@
           <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </div>
         <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            {% for page in site.pages %}
-              {% if page.title %}
-              {% unless page.exclude_from_nav %}
-              <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-              {% endunless %}
-              {% endif %}
-            {% endfor %}
+          <ul class="nav navbar-nav navbar-right"> 
+              <li><a class="page-link" href="{{ site.baseurl }}/">Home</a></li>
+              <li><a class="page-link" href="{{ site.baseurl }}/about/">About</a></li>
+              <li><a class="page-link" href="{{ site.baseurl }}/contact/">Contact</a></li>
+              <li><a class="page-link" href="{{ site.baseurl }}/blog/">Blog</a></li>  
           </ul>
         </div>
       </div>
